@@ -7,6 +7,7 @@
 h1 {
   text-align: center;
   color: #fff;
+  font-size: 45px;
 }
 
 .cards__container {
@@ -119,3 +120,14 @@ h1 {
     margin-bottom: 2rem;
   }
 }
+
+@media only screen and (max-width: 1024px) {
+  .cards__item {
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+    font-size: 25px;
+}}
