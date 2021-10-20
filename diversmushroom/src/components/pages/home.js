@@ -8,7 +8,6 @@ function Home() {
         <>
             <Hero />
             <Cards />
-            <Posts />
             <ContactUs />
         </>
     )

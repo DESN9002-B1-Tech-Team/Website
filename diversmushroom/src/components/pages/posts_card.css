@@ -1,0 +1,48 @@
+.post_items {
+	display:block;
+	height:100%;
+	width:80%;
+	margin: auto;
+	padding: 20px;
+	
+}
+
+.post_item {
+	display:table;
+	width:100%;
+	margin: 20px 5px;
+
+}
+
+.post_label {
+	display:block;
+	background-color: black;
+	padding: 5px;
+	color:white;
+	width: 200px;
+}
+
+.post_img {
+	float:left;
+	height: 200px;
+	width: 200px;
+}
+
+
+.post_text {
+	float:right;
+	background: white;
+	padding:50px;
+	width: calc(100% - 200px);
+	height: 200px;
+}
+
+.post_text h3 {
+	font-size: 1.6em;
+	padding:3px;
+}
+
+.post_text p {
+	color:grey;
+	padding:5px;
+}

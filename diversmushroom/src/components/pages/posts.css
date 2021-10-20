@@ -1,0 +1,16 @@
+.posts_body {
+	background-color: #FFFFFF;
+	background-image: url('../images/bg1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.post_container {
+	display:block;
+}
+
+.post_wrapper {
+	display:block;
+
+}
