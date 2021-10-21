@@ -1,0 +1,10 @@
+.tutorial_page {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin:auto;;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    background: url('./images/tutorial_bg.jpg') center center/cover no-repeat;
+    
+  }
