@@ -36,7 +36,7 @@ function ShowPosts() {
 			label = {value.label}
 			path = {value.path}
 			subtext = {value.subtext}
-			color = {(value.label == "Tutorial") ? "green" : "blue"}
+			color = {(value.label === "Tutorial") ? "green" : "blue"}
 		/>	
 	))
 
@@ -50,6 +50,7 @@ function Fetch() {
 		<InfiniteScroll
   			dataLength={postDetails.length}
  			hasMore={true}
+			next={ShowPosts}
  			loader={<h4>Loading...</h4>}
  			scrollableTarget="post_items"
   			endMessage={

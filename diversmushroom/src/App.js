@@ -2,8 +2,6 @@ import './App.css';
 import React from 'react';
 import Footer from './components/Footer'
 import Navbar from './components/Navbar';
-import Home from './components/pages/home'
-import NotFound from './components/pages/404'
 import Admin from './components/pages/admin'
 import Home from './components/pages/home';
 import Posts from './components/pages/posts';
