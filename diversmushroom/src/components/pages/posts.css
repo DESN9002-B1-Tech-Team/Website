@@ -65,6 +65,7 @@
 .post_text h3 {
 	font-size: 1.6em;
 	padding:3px 3px;
+	color:black;
 }
 
 .post_text p {
@@ -72,7 +73,5 @@
 	padding:10px 3px;
 }
 
-.testerButton {
-	width:200px;
-	height:100px;
-}
+a {
+	color:black;}
