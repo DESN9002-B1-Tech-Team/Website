@@ -1,29 +1,18 @@
 import '../../App.css'
 import { TextField, Button, Grid } from "@material-ui/core";
 import './admin.css'
+import '../../firebase'
 
 import React, { useRef, useState } from 'react';
 
 import firebase from 'firebase/compat/app';
-import 'firebase/compat/firestore';
 import 'firebase/compat/auth';
 import 'firebase/compat/analytics';
 
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { useCollectionData } from 'react-firebase-hooks/firestore';
 
-firebase.initializeApp({
-    apiKey: "AIzaSyCDPoqAdAAGBSTHsO0fWdSPTIC6GQ5P16I",
-    authDomain: "neomush-desn9002.firebaseapp.com",
-    projectId: "neomush-desn9002",
-    storageBucket: "neomush-desn9002.appspot.com",
-    messagingSenderId: "611949112320",
-    appId: "1:611949112320:web:02c30d964e76685a58bce5",
-    measurementId: "G-CFD30TVLHP"
-})
-
 const auth = firebase.auth();
-const firestore = firebase.firestore();
 const analytics = firebase.analytics();
 
 
