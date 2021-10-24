@@ -3,11 +3,14 @@
 	background-image: url('../images/bg3.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
+	
 
 }
 
 .post_container {
 	display:block;
+	width:80%;
+	margin: auto;
 }
 
 .post_wrapper {
@@ -15,10 +18,19 @@
 
 }
 
+.search_bar {
+	float:right;
+	width:40%;
+	font-size:1rem;
+	margin:40px 20px;
+	padding:10px 20px;
+	border-radius:20px;
+	
+}
+
 .post_items {
 	display:block;
-	width:80%;
-	margin: auto;
+
 	padding: 20px;
 	
 }
