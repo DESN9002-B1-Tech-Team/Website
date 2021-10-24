@@ -26,7 +26,7 @@ function ContactUs() {
             method="POST"
           >
             <CardContent >
-              <Grid name = "Grid" container Spacing={20} columnSpacing={{ xs: 2, sm: 2, md: 2 }} rowSpacing = {2} columnSpacing={2} >
+              <Grid name = "Grid" container Spacing={20} columnSpacing={{ xs: 2, sm: 2, md: 2 }} rowSpacing = {2} >
                 <Grid xs={12} sm = {6} item className="contact__row__1">
                   <TextField name="name" label="Name " placeholder="Enter your name/nickname" variant="outlined" margin="dense" fullWidth required className="contact__fields" />
                 </Grid>

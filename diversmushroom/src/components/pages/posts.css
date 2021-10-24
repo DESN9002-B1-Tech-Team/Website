@@ -1,0 +1,145 @@
+.posts_body {
+	background-color: #FFFFFF;
+	background-image: url('../images/bg3.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+	box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+}
+
+.post_container {
+	display:block;
+	width:80%;
+	margin: auto;
+}
+
+.post_wrapper {
+	display:block;
+}
+
+.search_bar {
+	float:right;
+	width:100%;
+	font-size:1rem;
+	margin:40px 0px;
+	padding:10px 20px;
+	border-radius:20px;
+	border: none;
+}
+
+.post_items {
+	display:block;
+	padding: 20px;
+}
+
+.post_item {
+	position:relative;
+	display:table;
+	width:100%;
+	margin: 20px 0px;
+}
+
+.post_label {
+	position:absolute;
+	display:block;
+	padding: 5px 10px;
+	color:white;
+	width: auto;
+	border-radius: 20px 0 0 0;
+}
+
+.post_img {
+	float:left;
+	height: 200px;
+	width: 200px;
+	border-radius: 20px 0 0 20px;
+	box-shadow: 2px 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.post_text {
+	float:right;
+	background: white;
+	padding:50px;
+	width: calc(100% - 200px);
+	height: 200px;
+	border-radius: 0 20px 20px 0;
+	box-shadow: 2px 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.post_text h3 {
+	font-size: 1.6em;
+	padding:3px 3px;
+	color:black;
+}
+
+.post_text p {
+	color:grey;
+	padding:10px 3px;
+}
+
+a {
+	color:black;}
+
+@media only screen and (max-width: 1024px) {
+	.post_item {
+		margin: 5px 0px;
+	}
+
+	.post_img {
+		float:left;
+		height: 80px;
+		width: 80px;
+	}
+
+	.post_text {
+		width: calc(100% - 80px);
+		height: 80px;
+		padding: 10px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		display: -webkit-box;
+		-webkit-line-clamp: 2; /* number of lines to show */
+		-webkit-box-orient: vertical;
+	}
+
+	.post_text h3 {
+		font-size: 16px;
+		padding: 0px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		display: -webkit-box;
+		-webkit-line-clamp: 2; /* number of lines to show */
+		-webkit-box-orient: vertical;
+	}
+
+	.post_text p {
+		font-size: 12px;
+		overflow: hidden;
+		padding: 0px;
+		text-overflow: ellipsis;
+		display: -webkit-box;
+		-webkit-line-clamp: 4; /* number of lines to show */
+		-webkit-box-orient: vertical;
+	}
+
+	.post_label {
+		position:absolute;
+		display: none;
+		padding: 5px 10px;
+		color:white;
+		font-size: 8px;
+		width: 40px;
+		border-radius: 20px 0 0 0;
+	}
+
+
+
+
+}
+
+* {
+	box-sizing: none;
+}

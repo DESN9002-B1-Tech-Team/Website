@@ -1,0 +1,21 @@
+.bg {
+  padding: 10rem;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  background: url('.././images/404_1.jpg') center center/cover no-repeat;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+}
+
+.contact__fields {
+  background: white;
+}
+
+.auth__btn {
+  margin:
+}
