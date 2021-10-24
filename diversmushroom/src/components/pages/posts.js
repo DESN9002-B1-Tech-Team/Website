@@ -11,10 +11,13 @@ function Posts() {
         <>
         	<div className="posts_body">
            		<h1>All Posts</h1>
+
            		<div className='post_container'>
+           		 	<input type="text" className="search_bar" placeholder="Search for an article" />           			
+
             		<div className='post_wrapper'>
             		
-            			<div className="post_items">            			
+            			<div className="post_items"> 
 							<ShowPosts />
             			</div>
             			
