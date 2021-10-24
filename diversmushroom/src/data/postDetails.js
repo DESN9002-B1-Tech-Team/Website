@@ -12,7 +12,7 @@ function PostDetails () {
 
     return (
         <>{posts && posts.map(p => <PostCardItem
-            src={p.src} text={p.text} label={p.label}
+            src={p.src} text={p.text} label={p.type}
             path={p.path} subtext={p.subtext}
             color={(p.label === "Tutorial") ? "green" : "blue"} />)}</>
     );

@@ -10,7 +10,6 @@ import 'firebase/compat/auth';
 import 'firebase/compat/analytics';
 
 import { useAuthState } from 'react-firebase-hooks/auth';
-import { useCollectionData } from 'react-firebase-hooks/firestore';
 
 const auth = firebase.auth();
 const analytics = firebase.analytics();

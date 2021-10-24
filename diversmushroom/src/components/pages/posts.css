@@ -46,7 +46,7 @@
 	padding: 5px 10px;
 	color:white;
 	width: auto;
-
+	border-radius: 20px 0 0 0;
 }
 
 .post_img {
@@ -124,6 +124,17 @@ a {
 		-webkit-line-clamp: 4; /* number of lines to show */
 		-webkit-box-orient: vertical;
 	}
+
+	.post_label {
+		position:absolute;
+		display: none;
+		padding: 5px 10px;
+		color:white;
+		font-size: 8px;
+		width: 40px;
+		border-radius: 20px 0 0 0;
+	}
+
 
 
 
