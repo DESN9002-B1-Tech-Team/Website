@@ -19,6 +19,7 @@ function ContactUs() {
   return (
     <div className='contact'>
       <h1>Contact Us</h1>
+
       <div className='contact__form'>
         <Card name = "contactus__form" style={{ backgroundColor: 'rgba(255, 255, 255, 0.3)', border: 'none', padding: '2px'}}>
           <form
@@ -46,7 +47,7 @@ function ContactUs() {
             </CardContent>
           </form>
         </Card>
-      </div>
+      </div><center><h3>Or Email us at contact@neomush.com</h3></center>
     </div>
 )}
 

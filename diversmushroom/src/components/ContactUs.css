@@ -11,6 +11,11 @@ h1 {
   font-size: 45px;
 }
 
+h3 {
+  color: #fff;
+  padding: 2rem;
+}
+
 .contact__fields {
   background: rgba(255, 255, 255, 0.4);
   border-radius: 8px;
