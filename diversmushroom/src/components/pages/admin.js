@@ -3,7 +3,7 @@ import { TextField, Button, Grid } from "@material-ui/core";
 import './admin.css'
 import '../../firebase'
 
-import React, { useRef, useState } from 'react';
+import React, { useRef } from 'react';
 
 import firebase from 'firebase/compat/app';
 import 'firebase/compat/auth';
@@ -12,7 +12,6 @@ import 'firebase/compat/analytics';
 import { useAuthState } from 'react-firebase-hooks/auth';
 
 const auth = firebase.auth();
-const analytics = firebase.analytics();
 
 
 

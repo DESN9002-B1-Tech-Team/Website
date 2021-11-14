@@ -13,7 +13,7 @@ function Footer() {
                 </div>
                 <WaveFooter />
                 <p className="footer__copyright">
-                    DIVERSMUSHROOM &copy;  {new Date().getFullYear()}. All rights reserved.
+                    NeoMush &copy;  {new Date().getFullYear()}. All rights reserved.
                 </p>
             </div>
         </div>
